@@ -38,5 +38,5 @@ jobs:
         with:
           app-name: dynamic-event-backend
           slot-name: 'production'
-          publish-profile: ${{secrets.ProductionBackend}}
+          publish-profile: ${{secrets.PRODUCTIONBACKEND}}
           package: ./backend
