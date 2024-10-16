@@ -36,5 +36,5 @@ jobs:
         with:
           app-name: dynamic-event-frontend  # Make sure this matches the frontend App Service name
           slot-name: 'production'
-          publish-profile: ${{ secrets.AZURE_FRONTEND_PUBLISH_PROFILE }}
+          publish-profile: ${{ secrets.AZURE_ProductionFrontend }}
           package: ./frontend/build
