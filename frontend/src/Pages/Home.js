@@ -57,7 +57,7 @@ function Home() {
             </Fade>
             <Fade in timeout={1200}>
               <Typography variant="h6" color="text.secondary" paragraph>
-                Explore events and connect with people in your area.
+                Explore events and connect with many people in your area.
               </Typography>
             </Fade>
             <Box sx={{ mt: 3 }}>
