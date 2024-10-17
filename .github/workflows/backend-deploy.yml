@@ -36,7 +36,7 @@ jobs:
       - name: Deploy to Azure Web App
         uses: azure/webapps-deploy@v2
         with:
-          app-name: dynamic-event-backend
+          app-name: ProductionBackend
           slot-name: 'production'
           publish-profile: ${{secrets.PRODUCTIONBACKEND}}
           package: ./backend
